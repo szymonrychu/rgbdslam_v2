@@ -76,7 +76,7 @@ link_directories(${catkin_LIBRARY_DIRS})
 # Required 3rd party
 ####################################################
 # PCL #######################
-find_package(PCL 1.7 REQUIRED COMPONENTS common io)
+find_package(PCL 1.8 REQUIRED COMPONENTS common io)
 include_directories(SYSTEM ${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
